@@ -1,0 +1,148 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos del header */
+header {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #0dc243;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+/* Estilos de la barra lateral */
+aside {
+    position: relative;
+    width: 290px;
+    background-color: #fff;
+    padding: 40px;
+    border-right: 1px solid #ddd;
+    right: 3px;
+    border-radius: 20px;
+}
+
+aside h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+aside ul li a:hover {
+    color: #0dc243;
+}
+
+/* Estilos del contenido principal */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+}
+
+main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+main section {
+    margin-top: 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+/*======================Introduccion======================*/
+.content-list {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.politicas {
+    border-radius: 40px;
+    padding-left: 40px;
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 160%;
+}
+p {
+    line-height: 150%;
+}
+
+
+
+/*===================== Politicas de privacidad ==============*/
+
+
+
+/*============ condiciones de servicio ================*/
+
+.condiciones li {
+        font-size: 1em;
+        line-height: 230%;
+    }
